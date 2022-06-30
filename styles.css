@@ -1,0 +1,62 @@
+.container, .container1 {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+button {
+ 
+  border: none;
+  background-color: white;
+  color: black;
+  border: 2px solid #0081A7;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 20px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #00AFB9;
+  color: white;
+}
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #FDFCDC;
+}
+
+h1 {
+  margin: 30px 30px 30px 0px;
+  font-family: 'Lobster Two', cursive;
+  text-shadow: 5px 0 #0081A7;
+  font-size: 6rem;
+  color: #00AFB9;
+}
+
+p {
+  font-size: 2rem;
+  color: #F07167;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+img {
+  width: 80%;
+}
+
+button:active{
+  background-color: #00AFB9;
+  color: white;
+  transform: scaleX(0.9) translateY(4px);
+
+}
+
